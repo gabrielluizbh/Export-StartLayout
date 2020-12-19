@@ -6,4 +6,5 @@ Script  dos comandos utilizados para personalizando o Menu Iniciar e Barra de Ta
 XML.xml
 
 Para maior entendimento para execução do script acesse o link do artigo:  http://gabrielluiz.com/2020/12/customize-start-menu-taskbar-windows-10
+
 Créditos - Gabriel Luiz - www.gabrielluiz.com
