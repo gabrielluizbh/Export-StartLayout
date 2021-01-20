@@ -6,9 +6,13 @@
 New-Item -ItemType Directory -Path C:\XML
 New-SmbShare -Path C:\XML\ -Name XML
 
-# Comandos de exportação de layout do Menu Iniciar.
+# Comandos de exportação de layout do Menu Iniciar. Windows 10, versão 1607, 1703 ou 1803.
 
 Export-StartLayout –path C:\XML\layout-menu-iniciar.xml
+
+# Comandos de exportação de layout do Menu Iniciar. Windows 10, versão 1809 ou superior.
+
+Export-StartLayout -UseDesktopApplicationID –path C:\XML\layout-menu-iniciar.xml
 
 <# 
 Referências:
